@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto Mono', monospace;
     background-color: #000;
-    color: #f7931a; /* Change main color to dark orange */
+    color: #f7931a; 
     text-align: center;
     position: relative;
 }
@@ -11,17 +11,17 @@ body {
 body::before {
     content: "";
     position: absolute;
-    top: 200%; /* Center the image vertically */
+    top: 200%; 
     left: 50%;
-    width: 200%; /* Make the image bigger */
-    height: 200%; /* Make the image bigger */
+    width: 200%; 
+    height: 200%; 
     background-image: url('../images/image.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.2; /* Adjust the opacity to make the image more faded */
-    transform: translate(-50%, -50%); /* Center the image */
-    z-index: -1; /* Ensure the image stays in the background */
+    opacity: 0.2; 
+    transform: translate(-50%, -50%); 
+    z-index: -1; 
 }
 
 header {
@@ -29,15 +29,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(17, 17, 17, 0.8); /* Semi-transparent background */
+    background-color: rgba(17, 17, 17, 0.8); 
 }
-
 h1 {
     margin: 0;
 }
 
 .connect-wallet {
-    background-color: #f7931a; /* Change button color to dark orange */
+    background-color: #f7931a; 
     color: #000;
     border: none;
     padding: 10px 20px;
@@ -48,14 +47,14 @@ h1 {
 
 main {
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.8); 
 }
 
 .button {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    background-color: #f7931a; /* Change button color to dark orange */
+    background-color: #f7931a; 
     color: #000;
     text-decoration: none;
     border-radius: 5px;
