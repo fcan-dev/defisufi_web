@@ -1,0 +1,21 @@
+{
+  "name": "cypherpunk-landing-page",
+  "version": "1.0.0",
+  "description": "A simple landing page with a cypherpunk aesthetic, featuring links to a token buy page and a Twitter page.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "cypherpunk",
+    "landing page",
+    "token",
+    "Twitter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

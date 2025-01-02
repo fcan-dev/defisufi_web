@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #000;
+    color: #f7931a; /* Change main color to dark orange */
+    text-align: center;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 200%; /* Center the image vertically */
+    left: 50%;
+    width: 200%; /* Make the image bigger */
+    height: 200%; /* Make the image bigger */
+    background-image: url('../images/image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2; /* Adjust the opacity to make the image more faded */
+    transform: translate(-50%, -50%); /* Center the image */
+    z-index: -1; /* Ensure the image stays in the background */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(17, 17, 17, 0.8); /* Semi-transparent background */
+}
+
+h1 {
+    margin: 0;
+}
+
+.connect-wallet {
+    background-color: #f7931a; /* Change button color to dark orange */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: not-allowed;
+    opacity: 0.6;
+    border-radius: 5px; 
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f7931a; /* Change button color to dark orange */
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
